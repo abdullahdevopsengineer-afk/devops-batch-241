@@ -6,7 +6,8 @@ const PORT=process.env.PORT || 8080;
 app.use(("/"),(req,res)=>{
 res.json({message:"hello world"})
 })
-
+//this is commnet form dev branch
+//you have to check this code
 app.use(("/test",(req,res)=>{
 res.json({message:"This is a test"})
 
